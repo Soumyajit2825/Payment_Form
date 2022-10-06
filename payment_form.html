@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payment Form</title>
+    <link rel="stylesheet" href="style_form.css">
+  </head>
+
+  <body>
+    <div class="container">
+    <form action="">
+      <!-- creating a form using "form" tag-->
+      <hr />
+      <h1 class="main_heading">Payment Form</h1>
+      <p>* <b>marked places are must to be filled</b></p>
+      <hr />
+      <h2>PERSONAL INFORMATION</h2>
+      <p>* NAME: <input type="text" name="name" required /></p>
+      <!-- "required" this tag means that we have to fill that place mandatory-->
+      <fieldset>
+        <legend>* CHOOSE GENDER</legend>
+        <p>
+          MALE <input type="radio" name="gender" id="male" /> FEMALE<input
+            type="radio"
+            name="gender"
+            id="female"
+          />
+          OTHERS<input type="radio" name="gender" id="others" />
+        </p>
+      </fieldset>
+      <p>
+        * ADDDRESS :
+        <textarea
+          name="Address"
+          id="Address"
+          cols="100"
+          rows="8"
+          required
+        ></textarea>
+        <!-- adding a blank text area for writing adress-->
+      </p>
+      <p>* Email: <input type="email" name="email" id="email" required /></p>
+      <p>* PINCODE <input type="number" name="pincode" id="pincode" /></p>
+      <hr />
+      <h2><b>PAYMENT INFORMATION</b></h2>
+      <p>
+        *Card Type:-
+        <select name="Card_type" id="Card_type" required>
+          <option value="">--Select A Card Type--</option>
+          <option value="Visa">Visa</option>
+          <option value="Master Card">Master Card</option>
+          <option value="RuPay">Rupay</option>
+          <option value="Credit/Debit">Credit or Debit</option>
+        </select>
+      </p>
+      <p>
+        *Card Number:-
+        <input type="number" name="card_number" id="card_number" required />
+      </p>
+      <p>
+        *Card Expiry Date:-
+        <input type="date" name="Expiry_date" id="Expiry_date" required />
+      </p>
+      <p>
+        *CVV:-
+        <input type="password" name="CVV" id="CVV" required />
+      </p>
+      <input type="submit" value="SUBMIT DETAILS & PAY NOW" />
+    </form>
+  </div>
+  </body>
+</html>
