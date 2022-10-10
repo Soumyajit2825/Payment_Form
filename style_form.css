@@ -17,9 +17,9 @@ body {
 }
 
 .container {
-    background-color:#27c819;
+    background-color:#1e1455;
     padding: 15px 50px 25px 50px;
-    border: seashell;
+    border: rgb(240, 229, 221);
 
     border-radius: 10px;
     width: fit-content;
