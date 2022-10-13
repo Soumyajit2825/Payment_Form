@@ -11,14 +11,16 @@
 
 <body>
   <div class="container">
-    <form action="">
+    <form name="cardForm" action="">
       <!-- creating a form using "form" tag-->
       <hr />
       <h1 class="main_heading">Payment Form</h1>
       <p>* <b>marked places are must to be filled</b></p>
       <hr />
       <h2>PERSONAL INFORMATION</h2>
-      <p>* NAME: <input type="text" id="round" name="name" required /></p>
+      <p>* NAME: <input type="text" id="round" name="name" required
+                        oninvalid="this.setCustomValidity('Enter your awesome full name here please')"
+                        oninput="this.setCustomValidity('')"/></p>
       <!-- "required" this tag means that we have to fill that place mandatory-->
       <fieldset>
         <legend>* CHOOSE GENDER</legend>
@@ -36,8 +38,10 @@
         <textarea name="Address" id="Address" cols="100" rows="8" required></textarea>
         <!-- adding a blank text area for writing adress-->
       </p>
-      <p>* Email: <input type="email" name="email" id="email" required /></p>
-      <p>* PINCODE <input type="number" name="pincode" id="pincode" /></p>
+      <p>* Email: <input type="email" name="email" id="email" required
+                         oninvalid="this.setCustomValidity('Enter correct email address please')"
+                         oninput="this.setCustomValidity('')"/></p>
+      <p>* PINCODE <input type="number" name="pincode" id="pincode" pattern="[0-9]{4,}"/></p>
       <hr />
       <h2><b>PAYMENT INFORMATION</b></h2>
       <p>
@@ -52,7 +56,9 @@
       </p>
       <p>
         *Card Number:-
-        <input type="number" name="card_number" id="card_number" required />
+        <input type="number" name="card_number" id="card_number" required pattern="[0-9]{13,16}"
+               oninvalid="this.setCustomValidity('Add correct card data here with correct length')"
+               oninput="this.setCustomValidity('')"/>
       </p>
       <p>
         *Card Expiry Date:-
@@ -60,7 +66,9 @@
       </p>
       <p>
         *CVV:-
-        <input type="password" name="CVV" id="CVV" maxlength="3" required />
+        <input type="password" name="CVV" id="CVV" maxlength="3" required pattern="[0-9]{3}"
+               oninvalid="this.setCustomValidity('CVV needs to be 3 numbers long, no letters')"
+               oninput="this.setCustomValidity('')"/>
       </p>
       <input type="submit" value="SUBMIT DETAILS & PAY NOW" />
     </form>
