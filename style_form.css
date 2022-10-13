@@ -52,7 +52,6 @@ fieldset{
 input[type="submit"]{
     background-color:#166088;
     color:rgb(255, 255, 255);
-
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
@@ -60,6 +59,7 @@ input[type="submit"]{
     width: 100%;
 }
 input[type=submit]:hover{
-    background-color: #4A6FA5;
+    background-color:#e22cbe;
+    font-weight: bolder;
     font-size: 120%;
 }
