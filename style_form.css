@@ -11,13 +11,21 @@ body {
     margin: 15px 12%;
     font-size: 15px;
     padding: 8px;
+    background-color: #ffffff;
+    color: #DBE9EE;
+    background-image: url("https://www.transparenttextures.com/patterns/gplay.png");
 }
 
 .container {
-    background-color: #2196f3;
-    padding: 5px 20px 15px 20px;
-    border: solid #1e88e5;
+    background-color:#4F6D7A;
+    padding: 15px 50px 25px 50px;
+    border: solid;
+
     border-radius: 10px;
+    width: fit-content;
+    margin: auto;
+    display: flex;
+    opacity: 0.9;
 }
 
 input[type="text"],
@@ -26,40 +34,32 @@ input[type="number"],
 input[type="password"],
 input[type="date"],
 select,
-fieldset,
-textarea {
+textarea{
+    background-color: #DBE9EE;
     width: 100%;
     padding: 12px;
-    border: 3px solid #0d47a1;
-    border-radius: 25px;
-    margin: 10px;
+    margin:10px;
 }
+fieldset{
+    border: 2.5px solid #DBE9EE;
 
-fieldset {
-    background-color: #64b5f6;
-    border: 3px solid #0d47a1;
-}
-
-legend {
-    border: 1px solid #0d47a1;
-    padding: 5px;
-    background-color: #1e88e5;
 }
 
 .main_heading {
     text-align: center;
 }
 
-input[type="submit"] {
-    background-color: #1976d2;
-    color: rgb(255, 255, 255);
+input[type="submit"]{
+    background-color:#166088;
+    color:rgb(255, 255, 255);
+
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
     width: 100%;
 }
-
-input[type=submit]:hover {
-    background-color: #0d47a1;
+input[type=submit]:hover{
+    background-color: #4A6FA5;
+    font-size: 120%;
 }
