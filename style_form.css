@@ -19,7 +19,7 @@ body {
 .container {
     background-color:#27c819;
     padding: 15px 50px 25px 50px;
-    border: solid;
+    border: seashell;
 
     border-radius: 10px;
     width: fit-content;
