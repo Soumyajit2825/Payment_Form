@@ -1,25 +1,33 @@
-*{
+* {
     box-sizing: border-box;
 }
-body{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin: 15px 28px;
+
+hr {
+    border: solid #1976d2;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 15px 12%;
     font-size: 15px;
     padding: 8px;
     background-color: #ffffff;
     color: #DBE9EE;
     background-image: url("https://www.transparenttextures.com/patterns/gplay.png");
 }
+
 .container {
     background-color:#4F6D7A;
     padding: 15px 50px 25px 50px;
     border: solid;
+
     border-radius: 10px;
     width: fit-content;
     margin: auto;
     display: flex;
     opacity: 0.9;
 }
+
 input[type="text"],
 input[type="email"],
 input[type="number"],
@@ -34,13 +42,17 @@ textarea{
 }
 fieldset{
     border: 2.5px solid #DBE9EE;
+
 }
-.main_heading{
+
+.main_heading {
     text-align: center;
 }
+
 input[type="submit"]{
     background-color:#166088;
     color:rgb(255, 255, 255);
+
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
