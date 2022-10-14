@@ -12,7 +12,7 @@ body {
     font-size: 15px;
     padding: 8px;
     background-color:rgb(177, 234, 116);
-    color: #f8c87a;
+    color: #0e0d0d;
     background-image: url("https://www.transparenttextures.com/patterns/gplay.png");
 }
 
@@ -37,7 +37,7 @@ select,
 textarea{
     background-color: #DBE9EE;
     width: 100%;
-    padding: 12px;
+    padding: 13px;
     margin:10px;
 }
 fieldset{
