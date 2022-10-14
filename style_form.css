@@ -3,7 +3,7 @@
 }
 
 hr {
-    border: solid #1976d2;
+    border: dotted #dac496;
 }
 
 body {
@@ -17,11 +17,11 @@ body {
 }
 
 .container {
-    background-color:#1b028a;
+    background-color:#f3d986;
     padding: 15px 50px 25px 50px;
     border: rgb(240, 238, 237);
 
-    border-radius: 10px;
+    border-radius: 12px;
     width: fit-content;
     margin: auto;
     display: flex;
@@ -54,7 +54,7 @@ input[type="submit"]{
     color:rgb(255, 255, 255);
     padding: 12px 20px;
     border: none;
-    border-radius: 4px;
+    border-radius: 5px;
     cursor: pointer;
     width: 100%;
 }
