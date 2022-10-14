@@ -7,9 +7,9 @@ hr {
 }
 
 body {
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:Georgia, 'Times New Roman', Times, serif;
     margin: 15px 12%;
-    font-size: 15px;
+    font-size: 16px;
     padding: 9px;
     background-color:rgb(177, 234, 116);
     color: #0e0d0d;
@@ -17,8 +17,10 @@ body {
 }
 
 .container {
-    background-color:#f3d986;
+
     padding: 15px 50px 25px 50px;
+    background-color:#1b028a;
+
     border: rgb(240, 238, 237);
 
     border-radius: 12px;
