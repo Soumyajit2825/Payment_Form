@@ -15,15 +15,15 @@
       <!-- creating a form using "form" tag-->
       <hr />
       <h1 class="main_heading">Payment Form</h1>
-      <p>* <b>marked places are must to be filled</b></p>
+      <p><span>*</span> <b>marked places are must to be filled</b></p>
       <hr />
       <h2>PERSONAL INFORMATION</h2>
-      <p>* NAME: <input type="text" id="round" name="name" required
+      <p> NAME<span>*</span> :<input type="text" id="round" name="name" required
                         oninvalid="this.setCustomValidity('Enter your awesome full name here please')"
                         oninput="this.setCustomValidity('')"/></p>
       <!-- "required" this tag means that we have to fill that place mandatory-->
       <fieldset>
-        <legend>* CHOOSE GENDER</legend>
+        <legend> CHOOSE GENDER<span>*</span></legend>
         <p>
           <input type="radio" name="gender" id="male" />
           <label for="male">Male</label>
@@ -33,19 +33,18 @@
           <label for="others">Others</label>
         </p>
       </fieldset>
-      <p>
-        * ADDDRESS :
+      <p> ADDDRESS<span>*</span> :
         <textarea name="Address" id="Address" cols="100" rows="8" required></textarea>
         <!-- adding a blank text area for writing adress-->
       </p>
-      <p>* Email: <input type="email" name="email" id="email" required
+      <p> Email<span>*</span> : <input type="email" name="email" id="email" required
                          oninvalid="this.setCustomValidity('Enter correct email address please')"
                          oninput="this.setCustomValidity('')"/></p>
-      <p>* PINCODE <input type="number" name="pincode" id="pincode" pattern="[0-9]{4,}"/></p>
+      <p> PINCODE<span>*</span> <input type="number" name="pincode" id="pincode" pattern="[0-9]{4,}"/></p>
       <hr />
       <h2><b>PAYMENT INFORMATION</b></h2>
       <p>
-        *Card Type:-
+         Card Type<span>*</span>:-
         <select name="Card_type" id="Card_type" required>
           <option value="">--Select A Card Type--</option>
           <option value="Visa">Visa</option>
@@ -55,17 +54,17 @@
         </select>
       </p>
       <p>
-        *Card Number:-
+        Card Number<span>*</span>:-
         <input type="number" name="card_number" id="card_number" required pattern="[0-9]{13,16}"
                oninvalid="this.setCustomValidity('Add correct card data here with correct length')"
                oninput="this.setCustomValidity('')"/>
       </p>
       <p>
-        *Card Expiry Date:-
+        Card Expiry Date<span>*</span>:-
         <input type="date" name="Expiry_date" id="Expiry_date" required />
       </p>
       <p>
-        *CVV:-
+        CVV<span>*</span>:-
         <input type="password" name="CVV" id="CVV" maxlength="3" required pattern="[0-9]{3}"
                oninvalid="this.setCustomValidity('CVV needs to be 3 numbers long, no letters')"
                oninput="this.setCustomValidity('')"/>

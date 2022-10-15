@@ -3,21 +3,21 @@
 }
 
 hr {
-    border: solid #1976d2;
+    border: solid #ff2b2b;
 }
 
 body {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    margin: 15px 12%;
+    margin: 15px 25%;
     font-size: 15px;
     padding: 8px;
-    background-color:rgb(177, 234, 116);
-    color: #f8c87a;
+    background-color:rgb(135, 122, 82);
+    color: #3cf617;
     background-image: url("https://www.transparenttextures.com/patterns/gplay.png");
 }
 
 .container {
-    background-color:#27c819;
+    background-image:linear-gradient(to right,rgb(199, 57, 246),rgb(114, 96, 253),rgb(79, 249, 204));
     padding: 15px 50px 25px 50px;
     border: seashell;
 
@@ -27,6 +27,9 @@ body {
     display: flex;
     opacity: 0.9;
 }
+span {
+    color: red;
+}
 
 input[type="text"],
 input[type="email"],
@@ -35,18 +38,22 @@ input[type="password"],
 input[type="date"],
 select,
 textarea{
-    background-color: #DBE9EE;
+    background-color: #bef2bd;
     width: 100%;
     padding: 12px;
     margin:10px;
+    margin-left: 0px;
+    border-radius: 5px;
+    border-color: white;
 }
 fieldset{
-    border: 2.5px solid #DBE9EE;
-
+    border: 2.5px solid #c1e7f5;
+    border-radius: 5px;
 }
 
 .main_heading {
     text-align: center;
+    font-size: 270%;
 }
 
 input[type="submit"]{
@@ -60,6 +67,7 @@ input[type="submit"]{
 }
 input[type=submit]:hover{
     background-color:wheat;
+    color: #c91e6e;
     font-weight: bolder;
-    font-size: 120%;
+    /* font-size: 120%; */
 }
