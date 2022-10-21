@@ -3,7 +3,7 @@
 }
 
 hr {
-    border: solid #ff2b2b;
+    border: solid #47B5FF;
 }
 
 body {
@@ -12,17 +12,17 @@ body {
     font-size: 15px;
     padding: 8px;
     background-color:rgb(135, 122, 82);
-    color: #3cf617;
+    color:black ;
     background-image: url("https://www.transparenttextures.com/patterns/gplay.png");
 }
 
 .container {
-    background-image:linear-gradient(to right,rgb(199, 57, 246),rgb(114, 96, 253),rgb(79, 249, 204));
+    /* background-image:#FF8787; */
     padding: 15px 50px 25px 50px;
     border: seashell;
 
     padding: 15px 50px 25px 50px;
-    background-color:#1b028a;
+    background-color:white;
 
     border: rgb(240, 238, 237);
 
@@ -33,7 +33,7 @@ body {
     opacity: 0.9;
 }
 span {
-    color: red;
+    color: #FF8787;
 }
 
 input[type="text"],
@@ -43,16 +43,16 @@ input[type="password"],
 input[type="date"],
 select,
 textarea{
-    background-color: #bef2bd;
+    background-color:white;
     width: 100%;
     padding: 13px;
     margin:10px;
     margin-left: 0px;
     border-radius: 5px;
-    border-color: white;
+    border-color: black;
 }
 fieldset{
-    border: 2.5px solid #c1e7f5;
+    border: 2.5px solid black;
     border-radius: 5px;
 }
 
@@ -62,7 +62,7 @@ fieldset{
 }
 
 input[type="submit"]{
-    background-color:#c91e6e;
+    background-color:#47B5FF;
     color:rgb(255, 255, 255);
     padding: 12px 20px;
     border: none;
