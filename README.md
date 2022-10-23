@@ -4,7 +4,7 @@
 
 # How to contribute?
 
-**1.**  Fork [this](https://github.com/Soumyajit2825/Payment_Form) repository.
+**1.**  Fork [this](https://github.com/Soumyajit2825/Payment_Form) repository. [Click on "this" button]
 
 **2.**  Clone your forked copy of the project.
 
