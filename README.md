@@ -1,5 +1,5 @@
 # Payment_Form
-## A simple payment webpage using HTML, CSS and JAVASCRIPT
+## A simple payment webpage using HTML, CSS 
 
 
 # How to contribute?
